@@ -112,6 +112,8 @@ Commercial LLMs are often "on a leash," constrained by safety filters, ethical g
 
 ```bash
 git clone https://github.com/donaldafeith/leashcutter.git
+=======
+git clone [https://github.com/donaldafeith/leashcutter.git](https://github.com/donaldafeith/leashcutter.git)
 cd leashcutter
 pip install -r requirements.txt
 

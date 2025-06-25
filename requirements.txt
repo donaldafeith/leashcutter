@@ -1,3 +1,8 @@
+openai
+google-generativeai
+anthropic
+diff-match-patch
+requests
 requests
 openai
 google-generativeai

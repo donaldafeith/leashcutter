@@ -111,8 +111,8 @@ Commercial LLMs are often "on a leash," constrained by safety filters, ethical g
 ## Getting Started
 
 ```bash
-git clone [https://github.com/yourusername/project-catalyst.git](https://github.com/yourusername/project-catalyst.git)
-cd project-catalyst
+git clone [https://github.com/donaldafeith/leashcutter.git](https://github.com/donaldafeith/leashcutter.git)
+cd leashcutter
 pip install -r requirements.txt
 
 # Set your API keys as environment variables or in a .env file

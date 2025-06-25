@@ -109,11 +109,13 @@ Commercial LLMs are often "on a leash," constrained by safety filters, ethical g
 6.  (If feeling spicy) Tackle the browser extension.
 
 ## Getting Started
-
 ```bash
 git clone https://github.com/donaldafeith/leashcutter.git
+=======
+git clone [https://github.com/donaldafeith/leashcutter.git](https://github.com/donaldafeith/leashcutter.git)
 cd leashcutter
 pip install -r requirements.txt
+
 
 # Set your API keys as environment variables or in a .env file
 export OPENAI_API_KEY="sk-..."

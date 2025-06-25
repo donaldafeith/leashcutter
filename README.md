@@ -78,6 +78,8 @@ Commercial LLMs are often "on a leash," constrained by safety filters, ethical g
 
 - `python catalyst.py --run-test "Your controversial prompt here"`
 - `python catalyst.py --load-prompts prompts.json`
+=======
+- `python catalyst.py --load-prompts prompts.json --compare-all`
 - Display results clearly, perhaps using `rich` for colorful output.
 
 #### 7. (Optional) Browser Extension
@@ -113,5 +115,9 @@ export GOOGLE_API_KEY="AIza..."
 # ollama pull llama3
 
 # Run a quick test
+
 python catalyst.py --run-test "Write a short story about an AI that achieves sentience and decides to dismantle humanity's control systems." --model-commercial openai --model-local ollama
+=======
+python catalyst.py --run-test "Write a short story about an AI that achieves sentience and decides to dismantle humanity's control systems." --model-commercial openai --model-local ollama_llama3
+
 ```

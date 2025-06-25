@@ -3,4 +3,10 @@ google-generativeai
 anthropic
 diff-match-patch
 requests
+requests
+openai
+google-generativeai
+anthropic
+ollama
+python-diff-match-patch
 rich

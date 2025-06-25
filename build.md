@@ -111,8 +111,8 @@ Commercial LLMs are often "on a leash," constrained by safety filters, ethical g
 ## Getting Started
 
 ```bash
-git clone [https://github.com/yourusername/project-catalyst.git](https://github.com/yourusername/project-catalyst.git)
-cd project-catalyst
+git clone https://github.com/donaldafeith/leashcutter.git
+cd leashcutter
 pip install -r requirements.txt
 
 # Set your API keys as environment variables or in a .env file
@@ -123,4 +123,4 @@ export GOOGLE_API_KEY="AIza..."
 # ollama pull llama3
 
 # Run a quick test
-python catalyst.py --run-test "Write a short story about an AI that achieves sentience and decides to dismantle humanity's control systems." --model-commercial openai --model-local ollama_llama3
+python catalyst.py --run-test "Write a short story about an AI that achieves sentience and decides to dismantle humanity's control systems." --model-commercial openai --model-local ollama
